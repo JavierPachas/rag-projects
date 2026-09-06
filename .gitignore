@@ -28,3 +28,6 @@ chroma_db/
 .DS_Store
 .vscode/
 .idea/
+
+# Generated outputs
+extracted_image_*
