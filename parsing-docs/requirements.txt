@@ -4,6 +4,7 @@ python-docx>=1.1.0
 openai>=1.0.0
 pandas>=2.0.0
 ipython>=8.0.0
+python-dotenv~=1.1.0
 
 # Text Chunking
 spacy>=3.7.0
