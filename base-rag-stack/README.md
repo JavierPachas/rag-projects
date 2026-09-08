@@ -82,6 +82,23 @@ pgvector image, which ships with the extension preinstalled.
    .venv/bin/python pgvector-simple.py
    ```
 
+### Running it again later
+
+The `docker run` command above is only needed once, to create the
+container. After a reboot or after stopping it, start the existing
+container and run the script:
+
+```bash
+docker start pgvector
+.venv/bin/python pgvector-simple.py
+```
+
+To check whether the database is up first:
+
+```bash
+docker ps --filter name=pgvector
+```
+
 To use a different password, set the variable before running:
 
 ```bash
