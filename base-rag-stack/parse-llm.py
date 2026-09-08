@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 
-load_dotenv()  # reads OPENAI_API_KEY from parsing-docs/.env into the environment
+load_dotenv()  # reads OPENAI_API_KEY from base-rag-stack/.env into the environment
 
 from openai import OpenAI
 
