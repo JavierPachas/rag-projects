@@ -18,6 +18,8 @@ matplotlib>=3.8.0
 sqlite-vec>=0.1.0
 psycopg2-binary>=2.9.0
 pgvector>=0.3.0
+scikit-learn>=1.4.0
+numpy>=1.26.0
 
 # Generative LLMs
 anthropic>=0.30.0
