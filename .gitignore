@@ -31,3 +31,4 @@ chroma_db/
 
 # Generated outputs
 extracted_image_*
+output-folder-name/
