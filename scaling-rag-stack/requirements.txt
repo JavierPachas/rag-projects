@@ -1,3 +1,8 @@
 requests
 PyPDF2
 sentence-transformers
+llama-index
+transformers
+torch
+python-dotenv
+accelerate
